@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ritalmprt.github.io/rsschool-cv/
