@@ -127,7 +127,7 @@ span a:hover{
   color: #a5a6a7;
 }
 /*Footer Styling*/
-footer {
+/*footer {
   width: 100%;
   height : 200px;
   color: rgb(73, 67, 67);
@@ -152,25 +152,69 @@ footer span {
 }
 footer span a:hover{
   color: #0082ff;
+}*/
+
+.page-footer {
+  background-color: #ffffff;
 }
 
-.rs__logo {
-  width: 102px;
-}
-.rs_img {
-  margin-top: 5px;
-}
-
-.git__logo {
-  width: 102px;
-}
-.git_img {
-  margin-top: 5px;
+.page-footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem; 
 }
 
-.footer-float {
-  width: 30%;
-  float: left;
-  padding: 20px;
-}  
+.contact-links__item--rss {
+  position: relative;
+}
+
+.contact-links__item--rss:hover .rsslogo-hover {
+  display: inline;
+}
+
+.rsslogo-hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.page-footer__copyright {
+  font-size: 0.85rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+
+.contact-links__link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contact-links__link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.fab, .fas {
+  font-size: 1.25rem;
+  color: #000000;
+}
+
+.fab:hover, .fas:hover {
+  color: #0050ff;
+}
+
 
