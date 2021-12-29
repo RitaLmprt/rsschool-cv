@@ -1,0 +1,155 @@
+body { 
+font-size: 16px;
+margin: 0px;
+padding: 0px;
+overflow-y: scroll;
+font-family: 'Roboto', sans serif;
+}
+/*Top Navigation Styling*/
+.top-nav {
+  text-decoration: none;
+  line-height: 1.5em;
+  background-color: #ffffff;
+}
+h1 {
+  display: inline-block;
+  font-size: 2.5em;
+  width: 100%;
+  padding: 2% 0 0;
+  text-align: center;
+  letter-spacing: .05em;
+  @media(max-width: 767px){
+    padding: 2% 5%;
+  }
+}
+h3 {
+  display: inline-block;
+  font-size: 2em;
+  font-weight: bold;
+  width: 100%;
+  padding: 2% 0 0;
+  text-align: center;
+  letter-spacing: .05em;
+  @media(max-width: 767px){
+    padding: 2% 5%;
+  }
+}
+nav ul {
+  display: inline-block;
+  text-align:center;
+  font-size: 1.5em;
+  letter-spacing: .05em;
+  width: 100%;
+  text-transform: uppercase;
+  padding: 0;
+}
+li { 
+  float:none; 
+  display:inline-block;
+  margin: 0 2%;
+ }
+/*Link Styling & hover states*/
+a {
+  color: #2d3033;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4dc9ff;
+}
+/*Homepage content sections*/
+section{
+  font-size: 1.5em;
+  padding: 2% 12%;
+  text-align: center;
+  line-height: 125%;
+}
+.section-1 {
+  background-color: #0082ff;
+  color: #ffffff;
+}
+.section-2{
+  background-color: #ffffff;
+  color: #000000;
+}
+.section-2 img {
+  margin: auto;
+  padding: 0 8%;
+  @media(min-width: 768px) {
+    display: inline;
+    float: left;
+  }
+}
+
+
+.section-3 {
+  background-color: #0082ff;
+  color: #ffffff;
+
+}
+
+.section-4{
+  background-color: #ffffff;
+  color: #000000;
+}
+.section-4 img {
+  margin: auto;
+  padding: 0 8%;
+  @media(min-width: 768px) {
+    display: inline;
+    float: left;
+    margin:10px;
+  }
+ }
+.section-5{
+  background-color: #ffffff;
+  color: #000000;
+}
+.section-5 img {
+  margin: auto;
+  padding: 0 8%;
+  @media(min-width: 768px) {
+    display: inline;
+    float: left;
+    margin:10px;
+  }
+ }
+/*Landing page link styles from content sections*/
+span{ 
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: bold;
+  @media(max-width:767px){
+    font-size: .4em;
+  }
+}
+span a:hover{
+  color: #a5a6a7;
+}
+/*Footer Styling*/
+footer {
+  width: 100%;
+  height : 80px;
+  color: #a5a6a7;
+  background-color: #2d3033;
+  font-size: 1.1em;
+  padding: 1.2em 0;
+  margin: 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+}
+footer a {
+  color: #d3d3d3;
+  font-weight: bold;
+}
+footer span {
+  text-transform: none;
+  font-size: 1em;
+  font-weight: normal;
+  display: block;
+  line-height: 125%;
+}
+footer span a:hover{
+  color: #0082ff;
+}
