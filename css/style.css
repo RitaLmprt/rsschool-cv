@@ -142,6 +142,7 @@ footer {
 footer a {
   color: #d3d3d3;
   font-weight: bold;
+  background-color: gray;
 }
 footer span {
   text-transform: none;
@@ -152,4 +153,10 @@ footer span {
 }
 footer span a:hover{
   color: #0082ff;
+}
+
+svg{
+  width:50px;
+  height:50px;
+  background-color: red;
 }
