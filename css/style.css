@@ -154,8 +154,17 @@ footer span a:hover{
   color: #0082ff;
 }
 
-svg{
-  width:100px;
-  height:100px;
-  
+.rs__logo {
+  width: 102px;
 }
+.rs_img {
+  margin-top: 5px;
+}
+
+.git__logo {
+  width: 102px;
+}
+.git_img {
+  margin-top: 5px;
+}
+
