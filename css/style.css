@@ -168,3 +168,9 @@ footer span a:hover{
   margin-top: 5px;
 }
 
+.footer-float {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}  
+
