@@ -143,13 +143,13 @@ footer a {
   color: #d3d3d3;
   font-weight: bold;
 }
-.footer-span {
+footer span {
   text-transform: none;
   font-size: 1em;
   font-weight: normal;
   display: block;
   line-height: 125%;
 }
-.footer-span a:hover{
+footer span a:hover{
   color: #0082ff;
 }
