@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+<html lang ="en">
+<head>
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My new page</title>
+    <title>My cv page</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -27,8 +29,8 @@
                     <li> <a href="#page3">Works</a> </li>
             </ul>
     </nav>
-   <section class="section-1">
-      <p>Rita Lempert is a front-end developer. Her work focuses on using progressive enhancement to create elegant, responsive web design for optimal user-experience.</p>
+   <section class="section-1"><h2>Introduction</h2>
+      <p>I am an aspiring front-end developer. My work focuses on using progressive enhancement to create elegant, responsive web design for optimal user-experience.</p>
        <p><span><a href="#page2">Learn More</a></span></p></section>
        
 <section class="section-2"><h2>Portfolio</h2><br><br><br>
@@ -56,7 +58,7 @@
         d=d.sort((a,b)=>b.length-a.length)
         let result = 0
         let result1 = 0
-        for (let i=0;i< d.length;i++){
+        for (let i=0;i<d.length;i++){
           result = Math.abs(d[i].localeCompare('ab'))
           result1 = Math.abs(d[i].localeCompare('pfc'))
          if (result&&result1)
@@ -109,3 +111,4 @@
 </footer>
 
 </body>
+</html>
