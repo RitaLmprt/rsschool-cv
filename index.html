@@ -52,20 +52,11 @@
       <p> or <a href="http://freecodecamp.com/ritalmprt"> FreeCodeCamp</a>
     <p><span><a href="#page1">Back</a></span></p>
 </section>
-<section class="section-4"><h2><a id= "page4">Code Example</a></h2>
+<section class="section-4"><h2><a id= "page4">Code Example - Type of Sum</a></h2>
 <pre>
-    var validWord = function(d, word) {
-        d=d.sort((a,b)=>b.length-a.length)
-        let result = 0
-        let result1 = 0
-        for (let i=0;i<d.length;i++){
-          result = Math.abs(d[i].localeCompare('ab'))
-          result1 = Math.abs(d[i].localeCompare('pfc'))
-         if (result&&result1)
-            word=word.replace(new RegExp(d[i],'g'), '')
-         }
-         return !word.length
-        };
+    function typeOfSum(a, b) {
+        return typeof(a + b);
+      }
 </pre>
 </section>
 
