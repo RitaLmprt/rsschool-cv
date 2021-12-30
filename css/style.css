@@ -155,7 +155,7 @@ footer span a:hover{
 }*/
 
 .page-footer {
-  background-color: #ffffff;
+  background-color: #0082ff;
 }
 
 .page-footer__inner {
@@ -186,7 +186,7 @@ footer span a:hover{
 }
 
 .page-footer__copyright {
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 
 .contact-links {
