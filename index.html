@@ -22,6 +22,7 @@
                 <ul>
                     <li> <a href="#">Home</a> </li>
                     <li><a href="#page2"> About me</a></li>
+                    <li><a href="#page4">Code example</a></li>
                     <li> <a href="#page3">Works</a> </li>
             </ul>
     </nav>
@@ -41,13 +42,28 @@
 <section class="section-3"><h2><a id= "page2">About me</a></h2>
       <p>I am junior full stack developer, looking for my next project. </p> 
       <p>Some quick facts about me:</p>
-      <p> I speak English, Hebrew and Rusian, learning Spanish, French and Polish.I can freely write, read and understand English, although i will like to practise spoken english more</p>
+      <p> I speak English(C2 level), Hebrew and Rusian, learning Spanish, French and Polish.I can freely write, read and understand English, although i will like to practise spoken english more</p>
       <p>I am a passionate <a href="https://www.goodreads.com/user/show/21333670-rita">reader</a></p>
-      <p> I have 4 pet <a href="#page4">rats.</a></p>
       <hr>
       <p>You can check <a href ="https://il.linkedin.com/in/rita-lempert-looking-for-my-next-job-8602a97b">linkedin</a> account, see my projects on <a href="https://github.com/RitaLmprt">Github</a>,</p>
       <p> or <a href="http://freecodecamp.com/ritalmprt"> FreeCodeCamp</a>
     <p><span><a href="#page1">Back</a></span></p>
+</section>
+<section class="section-4"><h2><a id= "page4">Code Example</a></h2>
+<pre>
+    var validWord = function(d, word) {
+        d=d.sort((a,b)=>b.length-a.length)
+        let result = 0
+        let result1 = 0
+        for (let i=0;i< d.length;i++){
+          result = Math.abs(d[i].localeCompare('ab'))
+          result1 = Math.abs(d[i].localeCompare('pfc'))
+         if (result&&result1)
+            word=word.replace(new RegExp(d[i],'g'), '')
+         }
+         return !word.length
+        };
+</pre>
 </section>
 
 <hr>
